@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Neonderthaw&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-image: url(../background.jpg);
+	background-repeat: no-repeat; /*Determines how often background pictures are repeated.*/
+	background-size: cover; /*Determines the size of the background picture for the element.*/
+	background-position: center; /*Determines the initial location for each background image.*/
+}
+
+img{
+	border: 0px none;
+	border-radius: 50%;
+	box-shadow: 0 0 0.5px black, 0 0 3px black, 0 0 5px black, 0 0 20px black;
+	margin-top: 100px;
+}
+
+.home h1{
+	margin-top: 50px;
+	margin-bottom: 10px;
+	font-family: 'Neonderthaw', cursive;
+	font-size: 80px;
+ 	color: #FFFFFF;
+ 	text-align: center;
+ 	text-shadow: 0 0 0.1px #FFFFFF, 0 0 0.5px #FFFFFF, 0 0 5px #B026FF, 0 0 20px #B026FF, 0 0 25px #B026FF, 0 0 30px #B026FF, 0 0 35px #B026FF; /*Text-shadow is a CSS property that adds shadows to text.*/	
+}
+
+.home h3{
+	font-family: 'Jura', sans-serif;
+	font-size: 25px;
+	letter-spacing: 6px;
+ 	color: #FFFFFF;
+ 	text-align: center;
+ 	text-shadow: 0 0 0.5px #FFFFFF, 0 0 3px #FFFFFF, 0 0 5px #FFA500, 0 0 20px #FFA500, 0 0 25px #FFA500, 0 0 30px #FFA500, 0 0 35px #FFA500;
+}
+
+.home hr{
+	width: 60%;
+	height: 3px;
+	color: #0096FF;
+	background-color: #0096FF;
+	margin: auto;
+	border-radius: 5px;
+	box-shadow: 0 0 0.5px #0096FF, 0 0 3px #0096FF, 0 0 5px #0096FF, 0 0 20px#0096FF, 0 0 25px #0096FF, 0 0 30px #0096FF, 0 0 35px #0096FF; /*The box-shadow CSS functionality allows shadow effects around the frame of an element.*/
+	margin-top: 30px;  
+}
+
+.buttons .button1{
+	position: relative;
+	text-align: center;
+	width: 250px;
+	padding: 5px;
+	margin-top: 40px;
+	margin-right: 20px;
+	font-size: 20px;
+	color: white;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 400;
+	border: 5px solid #FF1493;
+	box-shadow: 0 0 0.5px #FF1493, 0 0 3px #FF1493, 0 0 5px #FF1493, 0 0 20px #FF1493;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	cursor: pointer; /*Control the shape or look and feel of the cursor when it is hovering over any HTML element.*/
+	border-radius: 10px;
+	transition: 1s; /*CSS transitions allow you to adjust property values gradually over time.*/
+	background: transparent;
+}
+
+.buttons .button1:hover{
+	text-shadow: 0 0 5px white, 0 0 5px white;
+}
+
+.buttons .button2{
+	position: relative;
+	text-align: center;
+	width: 250px;
+	padding: 5px;
+	margin-top: 40px;
+	margin-right: 20px;
+	font-size: 20px;
+	color: white;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 400;
+	border: 5px solid #FFFF5C;
+	box-shadow: 0 0 0.5px #FFFF5C, 0 0 3px #FFFF5C, 0 0 5px #FFFF5C, 0 0 20px #FFFF5C;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	cursor: pointer;
+	border-radius: 10px;
+	transition: 1s;
+	background: transparent;
+}
+
+.buttons .button2:hover{
+	text-shadow: 0 0 5px white, 0 0 5px white;
+}
+
+.buttons .button3{
+	position: relative;
+	text-align: center;
+	width: 250px;
+	padding: 5px;
+	margin-top: 20px;
+	margin-right: 20px;
+	font-size: 20px;
+	color: white;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 400;
+	border: 5px solid #7AE846;
+	box-shadow: 0 0 0.5px #7AE846, 0 0 3px #7AE846, 0 0 5px #7AE846, 0 0 20px #7AE846;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	cursor: pointer;
+	border-radius: 10px;
+	transition: 1s;
+	background: transparent;
+}
+
+.buttons .button3:hover{
+	text-shadow: 0 0 5px white, 0 0 5px white;
+}
+
+.buttons .button4{
+	position: relative;
+	text-align: center;
+	width: 250px;
+	padding: 5px;
+	margin-top: 20px;
+	margin-right: 20px;
+	font-size: 20px;
+	color: white;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 400;
+	border: 5px solid #90FFFF;
+	box-shadow: 0 0 0.5px #90FFFF, 0 0 3px #90FFFF, 0 0 5px #90FFFF, 0 0 20px #90FFFF; 
+	text-transform: uppercase; 
+	letter-spacing: 2px;
+	cursor: pointer;
+	border-radius: 10px;
+	transition: 1s; 
+	background: transparent;
+}
+
+.buttons .button4:hover{
+	text-shadow: 0 0 5px white, 0 0 5px white;
+}
