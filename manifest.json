@@ -25,7 +25,7 @@
       "purpose": "any maskable"
     }],
   "lang": "en-US",
-  "start_url": "/home_page.html",
+  "start_url": "/index.html",
   "display": "standalone",
   "background_color": "white",
   "theme_color": "white"
