@@ -22,10 +22,18 @@
 		<h1> Welcome to my Personal Website!</h1>
 		<h3> ANGELA KAYE A. GALERO</h3>
   </div>
-		<hr>
+
+  <center><div class="buttons">
+    <button onclick="location.href='#container1'" class="button1">  About Me </button>
+    <button onclick="location.href='#container2'" class="button2">  Gallery </button>
+    <button onclick="location.href='#container3'" class="button3">  Hobbies </button>
+    <button onclick="location.href='#container4'" class="button4"> Likes </button>
+    <!--When a button is clicked, the onclick event executes or opens another page. The location href attribute is used to set or return the full URL of the current page.-->
+  </div></center>
+
     <br>
     <br>
-    <div class="container1">
+    <div id="container1">
       <h1> About Me </h1>
       <center><div class="mypictures">
         <img src="images/mypicture.jpg" alt="My Picture">
@@ -71,7 +79,7 @@
     <br>
     <br>
 
-    <div class="container2">
+    <div id="container2">
       <h1> Gallery </h1>
       <div class="family">
         <h2> My Family </h2>
@@ -107,7 +115,7 @@
     <br>
     <br>
 
-    <div class="container3">
+    <div id="container3">
       <h1> Hobbies & Interests </h1>
       <center><div class="movie">
         <img src="images/favmovie.jpg" alt="My Picture">
@@ -137,7 +145,7 @@
 
     <br>
 
-    <div class="container4">
+    <div id="container4">
       <h1> Likes </h1>
       <nav class="likes">
       <!--The nav> HTML element denotes a page section that provides navigation links, either within the current document or to other publications.-->

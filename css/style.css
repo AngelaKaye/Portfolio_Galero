@@ -44,15 +44,115 @@ body {
 .home hr{
 	width: 60%;
 	height: 3px;
-	color: #0096FF;
-	background-color: #0096FF;
+	color: #FF1493;
+	background-color: #FF1493;
 	margin: auto;
 	border-radius: 5px;
-	box-shadow: 0 0 0.5px #0096FF, 0 0 3px #0096FF, 0 0 5px #0096FF, 0 0 20px#0096FF, 0 0 25px #0096FF, 0 0 30px #0096FF, 0 0 35px #0096FF; /*The box-shadow CSS functionality allows shadow effects around the frame of an element.*/
+	box-shadow: 0 0 0.5px #FF1493, 0 0 3px #FF1493, 0 0 5px #FF1493, 0 0 20px#FF1493, 0 0 25px #FF1493, 0 0 30px #FF1493, 0 0 35px #FF1493; /*The box-shadow CSS functionality allows shadow effects around the frame of an element.*/
 	margin-top: 30px;  
 }
 
-.container1{
+.buttons .button1{
+	position: relative;
+	text-align: center;
+	width: 250px;
+	padding: 5px;
+	margin-top: 40px;
+	margin-right: 20px;
+	font-size: 20px;
+	color: white;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 400;
+	border: 5px solid #FF1493;
+	box-shadow: 0 0 0.5px #FF1493, 0 0 3px #FF1493, 0 0 5px #FF1493, 0 0 20px #FF1493;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	cursor: pointer; /*Control the shape or look and feel of the cursor when it is hovering over any HTML element.*/
+	border-radius: 10px;
+	transition: 1s; /*CSS transitions allow you to adjust property values gradually over time.*/
+	background: transparent;
+}
+
+.buttons .button1:hover{
+	text-shadow: 0 0 5px white, 0 0 5px white;
+}
+
+.buttons .button2{
+	position: relative;
+	text-align: center;
+	width: 250px;
+	padding: 5px;
+	margin-top: 40px;
+	margin-right: 20px;
+	font-size: 20px;
+	color: white;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 400;
+	border: 5px solid #FFFF5C;
+	box-shadow: 0 0 0.5px #FFFF5C, 0 0 3px #FFFF5C, 0 0 5px #FFFF5C, 0 0 20px #FFFF5C;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	cursor: pointer;
+	border-radius: 10px;
+	transition: 1s;
+	background: transparent;
+}
+
+.buttons .button2:hover{
+	text-shadow: 0 0 5px white, 0 0 5px white;
+}
+
+.buttons .button3{
+	position: relative;
+	text-align: center;
+	width: 250px;
+	padding: 5px;
+	margin-top: 20px;
+	margin-right: 20px;
+	font-size: 20px;
+	color: white;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 400;
+	border: 5px solid #7AE846;
+	box-shadow: 0 0 0.5px #7AE846, 0 0 3px #7AE846, 0 0 5px #7AE846, 0 0 20px #7AE846;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	cursor: pointer;
+	border-radius: 10px;
+	transition: 1s;
+	background: transparent;
+}
+
+.buttons .button3:hover{
+	text-shadow: 0 0 5px white, 0 0 5px white;
+}
+
+.buttons .button4{
+	position: relative;
+	text-align: center;
+	width: 250px;
+	padding: 5px;
+	margin-top: 20px;
+	margin-right: 20px;
+	font-size: 20px;
+	color: white;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 400;
+	border: 5px solid #90FFFF;
+	box-shadow: 0 0 0.5px #90FFFF, 0 0 3px #90FFFF, 0 0 5px #90FFFF, 0 0 20px #90FFFF; 
+	text-transform: uppercase; 
+	letter-spacing: 2px;
+	cursor: pointer;
+	border-radius: 10px;
+	transition: 1s; 
+	background: transparent;
+}
+
+.buttons .button4:hover{
+	text-shadow: 0 0 5px white, 0 0 5px white;
+}
+
+#container1{
 	background: #1c2e4a;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	border-radius: 10px;
@@ -69,7 +169,7 @@ body {
 }
 
 
-.container1 h1{
+#container1 h1{
 	font-family: 'Jura', sans-serif;
 	font-size: 40px;
 	letter-spacing: 2px;
@@ -78,7 +178,7 @@ body {
 	text-shadow: 0 0 10px #FF1493, 0 0 20px #FF1493;
 }
 
-.container1 p{
+#container1 p{
 	font-family: 'Roboto', sans-serif;
 	font-size: 17px;
 	text-align: justify;
@@ -89,7 +189,7 @@ body {
 	margin-right: 20px;
 }
 
-.container1 hr{
+#container1 hr{
 	width: 100%;
 	height: 1px;
 	color: #FFFFFF;
@@ -99,7 +199,7 @@ body {
 	margin-top: 20px;
 }
 
-.container1 h2{
+#container1 h2{
 	font-family: 'Jura', sans-serif;
 	font-size: 30px;
 	color: #FE3FB3;
@@ -135,7 +235,7 @@ td{
 	color: #FFFFFF;
 }
 
-.container2{
+#container2{
 	background: #1c2e4a;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	border-radius: 10px;
@@ -146,7 +246,7 @@ td{
 }
 
 
-.container2 h1{
+#container2 h1{
 	font-family: 'Jura', sans-serif;
 	font-size: 40px;
 	letter-spacing: 2px;
@@ -155,14 +255,14 @@ td{
 	text-shadow: 0 0 10px #FFFF5C, 0 0 20px #FFFF5C;
 }
 
-.container2 h2{
+#container2 h2{
 	font-family: 'Jura', sans-serif;
 	font-size: 30px;
 	color: #FFFF5C;
 	padding: 20px;
 }
 
-.container2 p{
+#container2 p{
 	font-family: 'Roboto', sans-serif;
 	font-size: 17px;
 	text-align: justify;
@@ -196,7 +296,7 @@ td{
 	padding: 20px;
 }
 
-.container3{
+#container3{
 	background: #1c2e4a;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	border-radius: 10px;
@@ -207,7 +307,7 @@ td{
 }
 
 
-.container3 h1, .container3 h1{
+#container3 h1, #container3 h1{
 	font-family: 'Jura', sans-serif;
 	font-size: 40px;
 	letter-spacing: 2px;
@@ -226,7 +326,7 @@ td{
 	margin-top: 18px;
 }
 
-.container3 p{
+#container3 p{
 	font-family: 'Roboto', sans-serif;
 	font-size: 17px;
 	text-align: justify;
@@ -243,7 +343,7 @@ iframe{
 	padding: 8px;
 }
 
-.container4 h1{
+#container4 h1{
 	font-family: 'Jura', sans-serif;
 	font-size: 40px;
 	letter-spacing: 2px;
@@ -252,7 +352,7 @@ iframe{
 	text-shadow: 0 0 10px #90FFFF, 0 0 20px #90FFFF;
 }
 
-.container4{
+#container4{
 	background: #1c2e4a;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	border-radius: 10px;
@@ -269,7 +369,7 @@ iframe{
 	margin-top: 20px;
 }
 
-.container4 p, .likes li{
+#container4 p, .likes li{
 	font-family: 'Roboto', sans-serif;
 	font-size: 17px;
 	text-align: justify;
